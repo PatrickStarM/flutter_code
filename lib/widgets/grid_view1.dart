@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_code/data/data_list.dart';
+import 'package:flutter_demo/data/data_list.dart';
 
 class GridView1 extends StatelessWidget {
   const GridView1({Key? key}) : super(key: key);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/data/data_list1.dart';
+import 'package:flutter_demo/data/data_list1.dart';
 
 class LayoutDemo extends StatelessWidget {
   const LayoutDemo({Key? key}) : super(key: key);

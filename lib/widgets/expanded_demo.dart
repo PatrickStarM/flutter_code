@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/widgets/row_demo.dart';
+import 'package:flutter_demo/widgets/row_demo.dart';
 
 class ExpandedDemo extends StatelessWidget {
   const ExpandedDemo({Key? key}) : super(key: key);
