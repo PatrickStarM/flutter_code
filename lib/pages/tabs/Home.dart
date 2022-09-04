@@ -55,6 +55,30 @@ class _HomePageState extends State<HomePage> {
             Navigator.pushNamed(context, "/drawer");
           },
         ),
+        ElevatedButton(
+          child: const Text("按钮合集"),
+          onPressed: () {
+            Navigator.pushNamed(context, "/button");
+          },
+        ),
+        ElevatedButton(
+          child: const Text("底部导航凸起按钮"),
+          onPressed: () {
+            Navigator.pushNamed(context, "/floatAction");
+          },
+        ),
+        ElevatedButton(
+          child: const Text("flutter表单"),
+          onPressed: () {
+            Navigator.pushNamed(context, "/formDemo");
+          },
+        ),
+        ElevatedButton(
+          child: const Text("学员登记系统"),
+          onPressed: () {
+            Navigator.pushNamed(context, "/formWidget");
+          },
+        ),
       ],
     ));
   }
