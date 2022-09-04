@@ -36,7 +36,24 @@ class _HomePageState extends State<HomePage> {
             //     (route) => route == null
             // ); // 返回根路由
           },
-
+        ),
+        ElevatedButton(
+          child: const Text("AppBar"),
+          onPressed: () {
+            Navigator.pushNamed(context, "/appBar");
+          },
+        ),
+        ElevatedButton(
+          child: const Text("顶部tab切换"),
+          onPressed: () {
+            Navigator.pushNamed(context, "/appBar1");
+          },
+        ),
+        ElevatedButton(
+          child: const Text("侧边"),
+          onPressed: () {
+            Navigator.pushNamed(context, "/drawer");
+          },
         ),
       ],
     ));

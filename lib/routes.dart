@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_code/pages/AppBarPage.dart';
+import 'package:flutter_code/pages/AppBarPage1.dart';
+import 'package:flutter_code/pages/DrawerPage.dart';
+import 'package:flutter_code/pages/DrawerPage1.dart';
 import 'package:flutter_code/pages/FormPage.dart';
 import 'package:flutter_code/pages/SearchPage.dart';
 import 'package:flutter_code/pages/Tabs.dart';
@@ -8,6 +12,9 @@ final Map<String, Function> routes = {
   '/': (context) => const Tabs(),
   '/search': (context) => const SearchPage(title: '搜索'),
   '/form': (context, {arguments}) => FormPage(arguments: arguments),
+  '/appBar': (context) => const AppBarPage(),
+  '/appBar1': (context) => const AppBarPage1(),
+  '/drawer': (context) => const DrawerPage1(),
 };
 
 // 固定写法
